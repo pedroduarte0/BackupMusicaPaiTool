@@ -38,6 +38,8 @@ namespace BackupMusicaPaiTool
                 // Convert to mp4 here
                 // TODO 
 
+// "/usr/bin/ffmpeg"  -loglevel warning -stats -hide_banner -nostdin -i "/home/pedro/Downloads/pc pai ruido.wav" -vn -sn -map 0:a:? -c:a: alac -map_metadata 0  -threads 4 -y "/home/pedro/Temp/audioconversions/pc pai ruido.m4a"
+// also  https://stackoverflow.com/questions/54456493/ffmpeg-keep-original-file-date
                 // Display converted file name
                 // TODO 
 
