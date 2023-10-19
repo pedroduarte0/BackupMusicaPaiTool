@@ -1,6 +1,8 @@
 ---
+layout: default
 title: Home
-layout: home
+nav_order: 1
+has_children: false
 ---
 
 ## Just an example page
